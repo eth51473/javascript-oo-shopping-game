@@ -217,7 +217,7 @@ const findProductById = (id) => {
 
 // Complete this function
 const generateProductId = () => {
-    Math.floor(Math.random()*20) +1;
+    return Math.floor(Math.random()*20) +1;
 };
 
 
